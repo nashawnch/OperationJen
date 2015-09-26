@@ -188,7 +188,7 @@ public class SignUpLogIn extends Activity implements LoaderCallbacks<Cursor> {
         }
     }
 
-    @Override
+    //@Override
     public Loader<Cursor> onCreateLoader(int i, Bundle bundle) {
         return new CursorLoader(this,
                 // Retrieve data rows for the device user's 'profile' contact.
