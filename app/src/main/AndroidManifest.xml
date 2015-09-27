@@ -18,7 +18,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name=".Launcher"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,13 +27,20 @@
             </intent-filter>
         </activity>
         <activity
-
             android:name=".SignIn_LogIn"
             android:label="@string/title_activity_sign_in__log_in" >
         </activity>
         <activity
-            android:name=".SignUpLogIn"
+            android:name=".LogIn"
             android:label="@string/title_activity_sign_up_log_in" >
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
         </activity>
     </application>
 
