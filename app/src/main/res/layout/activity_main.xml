@@ -27,9 +27,11 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Welcome To Jen"
         android:id="@+id/textView"
-        android:layout_below="@+id/image_camera"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="120dp" />
+        android:layout_marginTop="113dp"
+        android:textSize="30sp"
+        android:textColor="#FFF"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>
